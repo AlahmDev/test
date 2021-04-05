@@ -30,8 +30,8 @@ module.exports = class HelpCommand extends Command {
                 "value": "Get information about the bot."
             }],
             "author": {
-                "name": "Shortlink Bot",
-                "url": "https://github.com/Rismose/shortlink-bot",
+                "name": "LinkV Bypass",
+                "url": "https://github.com/07test9992/test",
                 "icon_url": "https://cdn.discordapp.com/avatars/780857188171644962/0344f614c6e85bef212f77d24631c631.webp?size=128"
             }
         });
