@@ -24,7 +24,7 @@ module.exports = class PingCommand extends Command {
                     "text": `Join our support server! https://discord.gg/${process.env.invite}`
                 },
                 "author": {
-                    "name": "Shortlink Bot",
+                    "name": "LinkV Bypass",
                     "url": "https://github.com/07test9992/test",
                     "icon_url": "https://cdn.discordapp.com/avatars/780857188171644962/0344f614c6e85bef212f77d24631c631.webp?size=128"
                 }
