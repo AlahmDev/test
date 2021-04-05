@@ -13,7 +13,7 @@ module.exports = class InviteCommand extends Command {
     run(message) {
         return message.embed({
             "title": "Invite",
-            "description": "[Click me!](https://discord.com/oauth2/authorize?client_id=820713791884361768&scope=bot&permissions=8)",
+            "description": "[Click me!](https://discord.com/oauth2/authorize?client_id=Your bot ID&scope=bot&permissions=8)",
             "author": {
                 "name": "LinkV Bypass",
                 "url": "https://github.com/07test9992/test",
