@@ -28,6 +28,9 @@ module.exports = class HelpCommand extends Command {
             }, {
                 "name": "info",
                 "value": "Get information about the bot."
+            }, {
+                "name": "vote",
+                "value": "Get the bots vote link to upvote the bot. Usage: `ping`"
             }],
             "author": {
                 "name": "LinkV Bypass",
