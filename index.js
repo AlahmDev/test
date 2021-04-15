@@ -1,3 +1,4 @@
+//Fixed a few bugs
 require('dotenv').config();
 
 const { CommandoClient } = require('discord.js-commando'),
