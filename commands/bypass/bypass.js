@@ -1,11 +1,3 @@
-/*############################################################
-THIS CODE IS PROTECTED BY GNU v3 LICENSE. IF YOU WISH TO USE
-THIS CODE, PLEASE FORK THE BOT FROM THE ORIGINAL GITHUB
-(https://github.com/Rismose/Shortlink-Bot) AND MAKE THE
-FORK PUBLIC! YOU MUST DO THIS, OTHERWISE YOU ARE IN
-VIOLATION OF THE GNU v3 LICENSE!
-##############################################################*/
-
 const { Message, MessageFlags } = require('discord.js');
 const {Command} = require('discord.js-commando'),
     fs = require('fs');
@@ -18,7 +10,7 @@ module.exports = class BypassCommand extends Command {
             aliases: ['bp', 'b'],
             group: 'bypass',
             memberName: 'bypass',
-            description: 'Finds what is behind the shortlink.',
+            description: 'Finds what is behind the Ad Link.',
             throttling: {
                 usages: 3,
                 duration: 45,
@@ -98,11 +90,11 @@ module.exports = class BypassCommand extends Command {
                     "color": 1964014,
                     "footer": {
                         "icon_url": "https://miro.medium.com/max/719/0*9f5uMrKMjLbzEf7q.png",
-                        "text": `GitHub @ Rismose/shortlink-bot`
+                        "text": `GitHub @ 07test9992/test`
                     },
                     "author": {
-                        "name": "Shortlink Bot",
-                        "url": "https://GitHub.com/Rismose/shortlink-bot",
+                        "name": "LinkV Bypass",
+                        "url": "https://GitHub.com/07test9992/test",
                         "icon_url": "https://cdn.discordapp.com/avatars/780857188171644962/0344f614c6e85bef212f77d24631c631.webp?size=128"
                     },
                     "fields": [{
@@ -123,11 +115,11 @@ module.exports = class BypassCommand extends Command {
                 "color": 1964014,
                 "footer": {
                     "icon_url": "https://miro.medium.com/max/719/0*9f5uMrKMjLbzEf7q.png",
-                    "text": `GitHub @ Rismose/shortlink-bot`
+                    "text": `GitHub @ 07test9992/test`
                 },
                 "author": {
-                    "name": "Shortlink Bot",
-                    "url": "https://GitHub.com/Rismose/shortlink-bot",
+                    "name": "LinkV Bypass",
+                    "url": "https://GitHub.com/07test9992/test",
                     "icon_url": "https://cdn.discordapp.com/avatars/780857188171644962/0344f614c6e85bef212f77d24631c631.webp?size=128"
                 },
                 "description": "I have sent the bypassed link to your DM's!"
